@@ -48,7 +48,7 @@
                 tokenSource.Cancel();
                 Console.WriteLine("Cancel requested.");
             });
-            ManagedThreadsExample.ProcessTextPlinq(tokenSource.Token);
+            ManagedThreadsExample.ProcessNumsPlinq(tokenSource.Token);
         }
     }
 }
